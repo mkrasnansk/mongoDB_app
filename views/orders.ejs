@@ -1,0 +1,22 @@
+<%- include('includes/head.ejs') %>
+
+<body>
+    <%- include('includes/nav.ejs') %>
+
+    <div>
+        <% orders.forEach(function(item){ %>
+        <div>
+            <h3><%= item.customername %></h3>
+            <div><%= item.address %></div>
+            
+            Product:
+            <%= item.productId.title %>
+           
+        </div>
+
+        <div>Total: <%= item.sum %></div>
+
+        <% }); %>
+    </div>
+</body>
+<html/>

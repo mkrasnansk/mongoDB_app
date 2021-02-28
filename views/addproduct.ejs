@@ -1,0 +1,19 @@
+<%- include('includes/head.ejs') %>
+
+<body>
+    <%- include('includes/nav.ejs') %>
+    <% if (errorMessage != ""){ %>
+        <div class="error">
+            <%= errorMessage %>
+        </div>
+    <% } %>
+<form action="/add" method="POST">
+    Title
+    <input type="text" name="title" />
+    Price
+    <input type="text" name="price" />
+    <input
+        type="submit" class="btn" />
+    <form />
+ <body/>
+ <html/>

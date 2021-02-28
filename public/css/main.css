@@ -1,0 +1,65 @@
+html {
+    width: 100vw;
+    height: 100vh;
+}
+body {
+    text-align: center;
+    background: rgb(63, 87, 144);
+}
+.nav {
+    margin: 1em;
+}
+.products {
+    margin: 0 auto;
+    width: 80%;
+}
+.delete {
+    color: rgba(30, 26, 26, 0.197);
+}
+.error {
+    position: absolute;
+    top: 5em;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%);
+    transition: 0.3s ease-in-out;
+    border-radius: 0.4em;
+    background-color: red;
+    padding: 0.3em;
+    color: white;
+    width: 50%;
+}
+a {
+    padding: 0.5em;
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    color: black;
+    transition: 0.2s ease;
+}
+form input {
+    text-align: center;
+}
+input {
+    padding: 0.3em;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid black;
+}
+input:focus {
+    text-align: center;
+    outline: none;
+}
+.btn {
+    padding: 0.5em;
+    border-radius: 0.3em;
+    color: rgb(193, 193, 193);
+    border: none;
+    background-color: black;
+}
+.btn:hover {
+    background-color: #333;
+    color: white;
+    transition: 0.2s ease;
+}
